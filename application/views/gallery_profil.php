@@ -24,7 +24,7 @@
     <!-- Theme CSS -->
     <link href="<?=base_url()?>assets/css/creative.css" rel="stylesheet">
 		<link href="<?=base_url()?>assets/css/page2_jobdes.css" rel="stylesheet">
-
+    <link rel="shortcut icon" href="<?php echo base_url('uploads/header/detik2.png')?>">
 
 
 </head>

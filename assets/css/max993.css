@@ -39,8 +39,8 @@
     margin-bottom: 50px;
     border-left: none;
     padding-left: -100px;
-    max-width: 100%;
-    min-width: 350px;
+/*    max-width: 100%;
+    min-width: 350px;*/
   }
   .no-gutter{
   padding-right: 0px;

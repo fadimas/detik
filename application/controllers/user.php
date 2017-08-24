@@ -83,6 +83,7 @@ class user extends CI_Controller {
 		$where = array(
 			'iduser' => $iduser 
 			); 
+		// print_r($data_masuk); die;
     $this->userform_model->insert_userform('formuser2', $data_masuk);
     $this->userform_model->updatenama($where, $data_masuk2);
 

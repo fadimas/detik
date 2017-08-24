@@ -23,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- Plugin CSS -->
     <link href="<?php echo base_url('assets/vendor/magnific-popup/magnific-popup.css')?>" rel="stylesheet">
-
+    <link rel="shortcut icon" href="<?php echo base_url('uploads/header/detik2.png')?>">
 
     <!-- Theme CSS -->
     <link href="<?php echo base_url('assets/css/creative.css')?>" rel="stylesheet">
@@ -36,7 +36,6 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/max414.css')?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/min768.css')?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/min601.css')?>">
-
 
 </head>
 
@@ -55,7 +54,7 @@
             foreach ($get_video2->result() as $video2):
           ?>
           <video autoplay muted loop class="vide">
-              <source src="<?php echo base_url('uploads/videos/'.$video2->video_file); ?>" type="video/mp4"/>
+              <source src="<?php echo base_url('uploads/videos/'.$video2->video_file); ?>" type="video/mp4" />
           </video>
           <img class="shadow" src="<?php echo base_url('assets/img/shadow.png')?>" alt="">
           <?php
@@ -141,6 +140,11 @@
                     endforeach;
                   ?>
             </div>
+
+            <div class="col-md-12 text-center">
+              <a class="load-more" href="<?php echo base_url('home/gallery')?>">LOAD MORE</a>
+            </div>
+          
           </div>
         </div>
     </section>

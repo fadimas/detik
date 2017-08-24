@@ -40,8 +40,7 @@ class Email extends CI_Controller {
           $url = "skilltest";  
         } else {
             $url = $link;
-        }
-         
+        }        
 
 
         $status2= urldecode($status);
@@ -59,6 +58,8 @@ class Email extends CI_Controller {
         $where2 = array( 'iduser' => $iduser );
         $user =  $this->lowongan_model->get_data($where2,'user_register');
         $tujuan = $user->email;
+        $namapelamar = $this->lowongan_model->get_data($where2,'user');
+        $nama = $namapelamar->nama_lengkap;
 
         //2. buat ndapetin email yang sesuai
         $where3 = array( 'status' => $status2 );
@@ -83,7 +84,14 @@ class Email extends CI_Controller {
         $list = array($tujuan);
         $ci->email->to($list);
         $ci->email->subject($subjek);
-        $ci->email->message($konten);
+
+        $dataemail['to'] = $nama;
+        $dataemail['isi'] = $konten;
+        $isi = $this->load->view('admin/email/isiemail',$dataemail, true);
+        // print_r($isi); die;
+        // die;
+        $ci->email->message($isi);
+        //$ci->set_mailtype('html');
         if ($this->email->send()) {
             $this->session->set_flashdata('pesan',
             '<div id=id class="alert alert-success alert-dismissable" role="alert">

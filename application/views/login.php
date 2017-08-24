@@ -3,7 +3,7 @@
   <!-- Theme Css -->
 
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/login.css')?>">
-
+  <link rel="shortcut icon" href="<?php echo base_url('uploads/header/detik2.png')?>">
   <!-- Script -->
   <script src="<?php echo base_url('assets/vendor/jquery/jquery.min.js')?>"></script>
 

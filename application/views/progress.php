@@ -24,7 +24,7 @@
     <!-- Plugin CSS -->
     <link href="<?php echo base_url('assets/vendor/magnific-popup/magnific-popup.css')?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/vendor/bootstrap/css/bootstrap-datepicker.css')?>" rel="stylesheet">
-
+<link rel="shortcut icon" href="<?php echo base_url('uploads/header/detik2.png')?>">
 
     <!-- Theme CSS -->
 

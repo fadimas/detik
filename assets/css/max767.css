@@ -9,10 +9,14 @@
   .foo-right {
     font-size: 12px;
   }
+  .detik-footer{
+    display: none;
+  }
   .dom {
     width: 100%;
     height: 170px;
     padding: 5px;
+    object-fit: cover;
   }
   .foo-left p{
     font-size: 12px;
@@ -25,7 +29,8 @@
     color: rgb(48, 48, 48);
   }
   .section-subtitle{
-    display: none;
+    /*display: none;*/
+    font-size: 12px;
   }
   .list-style{
     color: rgb(75, 75, 75);

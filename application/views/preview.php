@@ -3,6 +3,7 @@
 <head>
 	<title>TEMPLATE DOWNLOAD</title>
 </head>
+<link rel="shortcut icon" href="<?php echo base_url('uploads/header/detik2.png')?>">
 <body style="font-family:  'Roboto', sans-serif;" onload="window.print();">
 	<div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
         <table border="0" cellpadding="0" cellspacing="0" width="100%">

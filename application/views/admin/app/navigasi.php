@@ -49,9 +49,9 @@
 
             <li class="treeview"><a><i class="fa fa-edit"></i><span>Job Advertisement</span><i class="fa fa-angle-right"></i></a>
               <ul class="treeview-menu">
-                <li><a href="<?php echo base_url('adv/advertisement')?>"> <i class="fa fa-circle-o"></i> Advertisement</a></li>
                 <li><a href="<?php echo base_url('adv/kategori')?>"><i class="fa fa-circle-o"></i> Kategori</a></li>
                 <li><a href="<?php echo base_url('adv/subkategori')?>"><i class="fa fa-circle-o"></i> Sub Kategori</a></li>
+                <li><a href="<?php echo base_url('adv/advertisement')?>"> <i class="fa fa-circle-o"></i> Advertisement</a></li>
 
               </ul>
             </li>
