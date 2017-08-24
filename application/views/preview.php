@@ -57,7 +57,7 @@
 						<table align="center" border="0" cellpadding="0" cellspacing="0" valign="top" width="100%">
 							<tbody>
 								<tr>
-									<td valign="top" width="150" class="specbundle">
+									<td valign="top" width="180" class="specbundle">
 										<table align="left" border="0" cellpadding="0" cellspacing="0" valign="top" width="100%">
 											<tbody>
 												<tr>
@@ -140,7 +140,7 @@
 						<table align="center" border="0" cellpadding="0" cellspacing="0" valign="top" width="100%">
 							<tbody>
 								<tr>
-									<td valign="top" width="150" class="specbundle">
+									<td valign="top" width="180" class="specbundle">
 										<table align="left" border="0" cellpadding="0" cellspacing="0" valign="top" width="100%">
 											<tbody>
 												<tr>
@@ -241,7 +241,7 @@
 						<table align="center" border="0" cellpadding="0" cellspacing="0" valign="top" width="100%">
 							<tbody>
 								<tr>
-									<td valign="top" width="150" class="specbundle">
+									<td valign="top" width="180" class="specbundle">
 										<table align="left" border="0" cellpadding="0" cellspacing="0" valign="top" width="100%">
 											<tbody>
 												<tr>
