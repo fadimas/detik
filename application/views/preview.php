@@ -20,11 +20,11 @@
 									<div class="contentEditableContainer contentImageEditable">
 										<div class="contentEditable" >
 											<div style="border-bottom: 2px solid #dbdbdb; ">
-											<img style="margin-left: 100px;" src="<?php echo base_url('assets/img/logotulisan.png') ?>" width="250" height='60' >
+											<img style="margin-left: 40px;" src="<?php echo base_url('assets/img/logotulisan.png') ?>" width="250" height='60' >
 											</div>
 											<div style="text-align: center">
 											<h1 >FORMULIR DATA PELAMAR</h1>
-											<h5>"Semua kesempatan adalah sama tanpa memandang jenis kelamin, suku bangsa, agama, warna kulit, dan keturunan"</h5>
+											<h6 style="margin-left: 60px; margin-right: 60px;">"Semua kesempatan adalah sama tanpa memandang jenis kelamin, suku bangsa, agama, warna kulit, dan keturunan"</h6>
 											</div>
 										</div>
 										
@@ -46,7 +46,7 @@
     //foreach($form2 as $a){
 ?>
 	<!-- FORM 1 -->
-<div style="margin-left: 180px;">
+<div style="margin-left: 60px;">
 	<h3>TENTANG ANDA</h3>
 
 	<div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
@@ -289,11 +289,6 @@
 													<td colspan="3" height="10">
 													</td>
 												</tr>
-												<tr>
-													<td>
-														Bidang Pekerjaan
-													</td>	
-												</tr>
 												
 											</tbody>
 										</table>
@@ -345,12 +340,7 @@
 												<tr>
 													<td colspan="3" height="10">
 													</td>
-												</tr>
-												<tr>
-													<td>
-														: <?php echo $form2->bidangpekerjaan; ?>
-													</td>
-												</tr>
+												</tr>												
 											</tbody> <!-- tbody -->
 										</table>
 									</td>

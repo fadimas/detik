@@ -742,7 +742,7 @@ fieldset[disabled] .btn-primary.active {
   padding: 15px 30px;
 }
 .load-more:hover{
-  background-color: rgba(255,255,255,0.9);
+  background-color: #a1c5f4;
   transition: 500ms all-ease;
 }
 .load-more {
@@ -754,10 +754,5 @@ fieldset[disabled] .btn-primary.active {
   color: #0c4ea3;
   font-size: 14px;
 }
-
-
-
-
-
 
 }
