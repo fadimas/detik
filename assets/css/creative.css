@@ -255,6 +255,11 @@ aside {
     margin-right: 10px;
 }
 
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;  
+ }
+
 body#gallery a#nav-gallery, body#list a#nav-list{
   color: #007fee;
 }

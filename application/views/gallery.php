@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/min768.css')?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/min601.css')?>">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  
-<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 
 
 </head>
@@ -107,7 +107,7 @@
 <script type="text/javascript">
 var monkeyList = new List('gambar-list', {
   valueNames: ['name'],
-  page: 9,
+  page: 6,
   pagination: true
 });
 </script>

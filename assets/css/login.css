@@ -24,17 +24,20 @@
 }
 
 .login-header {
-  background: #28d;
+  background: #f4f4f4;
   padding: 20px;
   font-size: 1.4em;
   font-weight: normal;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
+  color: #383838;
 }
-
+.header-login img{
+  width: 50%;
+  height: 50%;
+}
 .login-container {
-  background: #ebebeb;
+  background: #ffffff;
   padding: 12px;
 }
 
