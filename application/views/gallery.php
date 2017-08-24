@@ -33,6 +33,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/max414.css')?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/min768.css')?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/min601.css')?>">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 
 
 </head>
@@ -50,6 +52,8 @@
    </div>
 <div class="col-lg-10 col-lg-offset-1">
     <div class="row no-gutter popup-gallery">
+            <div id="gambar-list">
+            <ul class="list">
     <?php
         foreach ($get_gallery->result() as $gallery):
     ?> 
@@ -57,6 +61,7 @@
         <a href="<?php echo base_url('uploads/images/'.$gallery->gallery_file); ?>" class="portfolio-box ">
         <img src="<?php echo base_url('uploads/images/'.$gallery->gallery_file); ?>" class="img-responsive dom" alt="">
             <div class="portfolio-box-caption">
+                <li class="name">
                 <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
                         <?php echo $gallery->gallery_name; ?>
@@ -65,28 +70,44 @@
                         <?php echo $gallery->gallery_desc; ?>
                     </div>
                 </div>
+                </li>
             </div>
         </a>
       </div>
       <?php
         endforeach;
       ?>
+            </ul>
+              <div class="text-center pagination-padding">
+                <ul class="pagination" style="position: relative;"></ul>
+              </div>
+            </div>
+
     </div>
   </div>
 </div>
 <!-- </div> -->
 <!-- Pagination -->
-  <div class="text-center pagination-padding">
-    <ul class="pagination">
+  <!-- <div class="text-center pagination-padding" class="pagination">
+    <ul class="pagination" >
       <li><a class="black" href="#">1</a></li>
       <li><a class="hover-black" href="#">2</a></li>
       <li><a class="hover-black" href="#">3</a></li>
       <li><a class="hover-black" href="#">4</a></li>
       <li><a class="hover-black" href="#">»</a></li>
     </ul>
-  </div>
+  </div> -->
+
 
     <?php include 'footer.php' ?>
     <?php include 'jQuery.php' ?>
 </body>
 </html>
+
+<script type="text/javascript">
+var monkeyList = new List('gambar-list', {
+  valueNames: ['name'],
+  page: 9,
+  pagination: true
+});
+</script>

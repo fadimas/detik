@@ -71,7 +71,7 @@ class Home extends CI_Controller {
 
 	public function gallery()
 	{
-		$get_gallery 			= $this->db->get_where('gallery', array('gallery_is_home' 		=> 'Y'), 9, 0);
+		$get_gallery 			= $this->db->get_where('gallery', array('gallery_is_home' 		=> 'Y'));
 		$get_footer 			= $this->db->get_where('footer', array('footer_is_displayed' 	=> 'Y'));
 
 		$data['get_footer']		= $get_footer;
@@ -86,7 +86,7 @@ class Home extends CI_Controller {
 		$get_footer 			= $this->db->get_where('footer', array('footer_is_displayed' 	=> 'Y'));
 
 		$data['get_footer']		= $get_footer;
-		$get_gallery 			= $this->db->get_where('gallery', array('gallery_is_home' 		=> 'Y'), 9, 0);
+		$get_gallery 			= $this->db->get_where('gallery', array('gallery_is_home' 		=> 'Y'));
 
 		$data['get_gallery']	= $get_gallery;
 		$this->load->view('gallery_profil', $data);
